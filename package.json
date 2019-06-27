@@ -1,0 +1,26 @@
+{
+  "name": "ast",
+  "version": "1.0.0",
+  "main": "scripts/index.js",
+  "scripts": {
+    "dev": "npx babel-node scripts/index.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/generator": "^7.4.4",
+    "@babel/node": "^7.4.5",
+    "@babel/parser": "^7.4.5",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-transform-react-jsx": "^7.3.0",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/traverse": "^7.4.5",
+    "@babel/types": "^7.4.4"
+  },
+  "dependencies": {
+    "@babel/template": "^7.4.4",
+    "mkdirp": "^0.5.1",
+    "react": "^16.8.6"
+  }
+}
